@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<meta charset=UTF-8">
+
+<html>
+<title>Form</title>
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+<head>
+    <style>
+
+        body, html {
+            background-color: rgb(105,105,105);
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            font-size: 20px;
+            color: white;
+            font-family: 'Slabo 27px', serif;
+        }
+
+        .container {
+            background-color: rgb(128,128,128);
+            width: 700px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 10px 30px 30px 30px;
+        }
+
+        input {
+            border-radius: 6px;
+            border: 0;
+            padding: 5px;
+            width: 100%;
+            margin-bottom: 10px;
+            box-shadow: 2px 2px rgb(211,211,211);
+            font-family: 'Slabo 27px', serif;
+        }
+
+            input[type=submit] {
+                background-color: red;
+                border-radius: 6px;
+                border: 0;
+                width: 100%;
+                margin: 15px 0;
+                padding: 10px;
+                box-shadow: 2px 2px rgb(211,211,211);
+                color: white;
+                font-family: 'Slabo 27px', serif;
+            }
+
+        textarea {
+            border: none;
+            border-radius: 6px;
+            box-sizing: border-box;
+            resize: none;
+            width: 100%;
+            height: 97.6px;
+            padding: 5px;
+            box-shadow: 2px 2px rgb(211,211,211);
+            font-family: 'Slabo 27px', serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #left {
+            width: 48%;
+            float: left;
+            margin: 1%;
+        }
+
+        #right {
+            width: 48%;
+            float: left;
+            margin: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <header>Elegant Contact Form</header>
+            <div id="left">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email Address">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div id="right">
+                <textarea type="text" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" placeholder="Submit">
+        </form>
+    </div>
+
+</body></html>
