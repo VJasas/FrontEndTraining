@@ -30,6 +30,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         filter: grayscale(50%);
+        position:relative;
     }
 
     #navbar {
@@ -69,9 +70,9 @@
 
     .headerh1 {
         position: absolute;
-        top: 25%;
+        top: 50%;
         left: 50%;
-        transform: translate(-50%, -25%);
+        transform: translate(-50%, -50%);
         font-size: 50px;
         color: white;
         text-align: center !important;
@@ -83,23 +84,24 @@
             padding: 10px;
             text-decoration: none;
             font-size: 36px !important;
+            display: inline-block;
+            white-space: nowrap;
         }
+            .headerh1 a:hover {
+                background-color: rgba(208,208,208,1);
+                color: black;
+            }
 
     #homespan {
-        top: 93%;
+        bottom: 3%;
         left: 3%;
-        position: relative;
+        position: absolute;
         background-color: black;
         color: white;
         padding: 5px;
         float: none !important;
         border-radius: 0 !important;
     }
-
-        .menubutton:hover {
-            background-color: rgba(208,208,208,1);
-            color: black;
-        }
 
     #menu {
         width: 100%;
@@ -111,12 +113,12 @@
         box-sizing: border-box;
     }
 
-    .menu {
+    .innersize {
         margin: auto;
         max-width: 980px;
     }
 
-        .menu p {
+        #menu p {
             font-size: 35px;
             margin: 30px 0;
             color: gray;
@@ -181,11 +183,6 @@
         box-sizing: border-box;
     }
 
-    #aboutus {
-        max-width: 980px;
-        margin: auto;
-    }
-
         #aboutus p {
             font-size: 24px;
             color: white !important;
@@ -235,11 +232,6 @@
         color: white;
     }
 
-    #contactus {
-        max-width: 980px;
-        margin: auto;
-    }
-
         #contactus h1 {
             text-align: center;
         }
@@ -263,17 +255,8 @@
         box-sizing: border-box;
     }
 
-    form {
-        max-width: 980px;
-        margin: auto;
-    }
-
     button:hover {
         background-color: lightgray;
-    }
-
-    #reference {
-        color: inherit;
     }
 
         #reference:hover {
@@ -284,9 +267,16 @@
                 display:none;
             }
             .mediachange {
-                font-size:66px;
+                font-size:66px !important;
                 font-weight:bold !important;
                 white-space:nowrap;
+                margin:20px 0;
+            }
+            #homespan {
+                font-size:22px;
+            }
+            .innersize p {
+                font-size:24px !important;
             }
         }
 </style>
@@ -306,8 +296,8 @@
         <a href="#contact">contact</a>
     </div>
     <div id="menu">
-        <div class="menu">
-            <h1 style="color:white; font-weight:normal; text-align:center; margin:40px auto; font-size:100px;">THE MENU</h1>
+        <div class="innersize">
+            <h1 class="mediachange" style="color:white; font-weight:normal; text-align:center; margin:40px auto; font-size:100px;">THE MENU</h1>
             <div id="menubar">
                 <a style="background-color:red;" href="Pizza">Pizza</a>
                 <a href="Salads">Salads</a>
@@ -355,7 +345,7 @@
         </div>
     </div>
     <div id="about">
-        <div id="aboutus">
+        <div class="innersize">
             <h1 style="text-align:center;">About</h1>
             <p>
                 The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -403,7 +393,7 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI9g0Htuf0WOl-thDy9paNQ20BTp6B5bc&callback=myMap"></script>
     </div>
     <div id="contactform">
-        <div id="contactus">
+        <div class="innersize">
             <h1 style="text-align:center; margin-bottom:50px;">Contact</h1>
             <p>Find us at some address at some place or call us at 05050515-122330</p>
             <p>
@@ -412,7 +402,7 @@
             </p>
             <p id="reserve"><strong>Reserve </strong>a table, ask for today's special or just send us a message:</p>
         </div>
-        <form>
+        <form class="innersize">
             <input type="text" placeholder="Name" />
             <input type="number" placeholder="How many people" />
             <input type="datetime-local" value="2017-11-16T20:00" />
@@ -421,7 +411,7 @@
         </form>
     </div>
     <footer style="text-align:center; color:white; background-color:black; padding:30px 0; font-weight:400;">
-        <h3>Powered by <a id="reference" href="https://www.youtube.com/watch?v=WeKiWy1DgRg"> JASAS Solutions</a></h3>
+        <h3>Powered by <a style="color: inherit;" href="https://www.youtube.com/watch?v=WeKiWy1DgRg"> JASAS Solutions</a></h3>
     </footer>
 </body>
 </html>
