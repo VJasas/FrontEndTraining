@@ -27,31 +27,31 @@
             color: white;
         }
 
-        .position1 {
+        header div {
             position: absolute;
-            left: 0;
-            top: 35%;
-            width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate (-50%; -50%);
+        }
+
+        header div h1 {
             text-align: center;
             font-size: 70px;
             color: white;
         }
 
-        .position3 {
-            position: absolute;
-            left: 0;
-            top: 45%;
-            width: 100%;
+        header div h3 {
+            font-size: 50px;
             text-align: center;
+            color: white;
         }
 
-        .position {
-            position: absolute;
-            left: 0;
-            top: 55%;
-            width: 100%;
+        header div h6 {
+            font-size: 30px;
             text-align: center;
+            color: white;
         }
+
         #navbar {
             overflow: hidden;
             background-color: rgba(0, 0, 255, 0.2);
@@ -151,7 +151,6 @@
         #Vakaroprograma {
         }
 
-
         ul {
             margin-top: 0;
             padding-top: 220px;
@@ -188,7 +187,7 @@
 
         .button2 {
             border-radius: 12px;
-            background-color: darkred;
+            background-color: #990000;
             border: 0;
             font-size: 25px;
             padding: 30px 45px;
@@ -200,13 +199,15 @@
     </style>
 </head>
 <body>
-    <header id="Pagrindinis">
-        <h1 class="position1">inHype Lounge</h1>
-        <h3 class="position3">Grand-Opening</h3>
-        <h6 class="position">2018-07-14</h6>
+    <header>
+        <div>
+           <h1>inHype Lounge</h1>
+           <h3>Grand-Opening</h3>
+           <h6>2018-07-14</h6>
+        </div>
     </header>
     <div id="navbar">
-        <a href="#Pagrindinis">Pagrindinis</a>
+        <a href="header">Pagrindinis</a>
         <a href="#Apie">Apie</a>
         <a href="#Jums">Jums</a>
         <a href="#Vakaroprograma">Vakaro programa</a>
@@ -214,15 +215,16 @@
     </div>
     <div id="Apie">
         <h1>Apie mus</h1>
-        <img src="https://s-ec.bstatic.com/images/hotel/max1024x768/108/108651241.jpg" class="imgpos"/>
-        <p>Taigi kaip ir daugelis didžių dalykų, viskas prasidėjo nuo idėjos... Idėjos sugražinti šurmulį bei sukurti nuostabią vietą Klaipėdoje, 
-        kurioje darbo dienomis būtų laukiami maži ir dideli - jaukioje, interaktyvioje ir pritraukiančioje aplinkoje. 
-        Aplikoje kurioje niekas nesikartoja ir kas kartą atėję galite rasiti kažką naujo virtuvėje ir aplink supančiame inHype pasaulyje.
-        Dėl Jūsų mielieji kiekvieną darbo dieną vakarais organizuosime linksmuosius humoro, Klaipėdoje numylėtus džiazo, klausymėlių bei visus kitus vakarus kokius tik galite įsivaizduoti..!
-        O savaitgaliai bus šiek tiek kitokie nei įprasta mus matyti darbo dienomis... Savaitgaliais mes užsiauginsim ragučius ir paversim nuostabią šeimos aplinką į velniškai gerą Lounge,
-        į kurį savaitgalinėtojai norės sugrįžti dar ir dar kartą, nes kas kartą jie ten ras kažką naujo, kažką velniškai gero, kažką ką žodžiais sunku apibūdinti..!
-        ...ir staiga viskas nurimo, vėl pirmadienis, vėl turite aplinką kurioje mielai apsilankysite su savo mažaisiais bei draugais ir kiek vienas iš Jūsų bus laukiamas sugrįžtant vėl ir vėl ten
-        iš kur išeiti nesinori. inHype - vieta, į kurią verta sugrįžti!
+        <img src="https://s-ec.bstatic.com/images/hotel/max1024x768/108/108651241.jpg" class="imgpos" />
+        <p>
+            Taigi kaip ir daugelis didžių dalykų, viskas prasidėjo nuo idėjos... Idėjos sugražinti šurmulį bei sukurti nuostabią vietą Klaipėdoje,
+            kurioje darbo dienomis būtų laukiami maži ir dideli - jaukioje, interaktyvioje ir pritraukiančioje aplinkoje.
+            Aplikoje kurioje niekas nesikartoja ir kas kartą atėję galite rasiti kažką naujo virtuvėje ir aplink supančiame inHype pasaulyje.
+            Dėl Jūsų mielieji kiekvieną darbo dieną vakarais organizuosime linksmuosius humoro, Klaipėdoje numylėtus džiazo, klausymėlių bei visus kitus vakarus kokius tik galite įsivaizduoti..!
+            O savaitgaliai bus šiek tiek kitokie nei įprasta mus matyti darbo dienomis... Savaitgaliais mes užsiauginsim ragučius ir paversim nuostabią šeimos aplinką į velniškai gerą Lounge,
+            į kurį savaitgalinėtojai norės sugrįžti dar ir dar kartą, nes kas kartą jie ten ras kažką naujo, kažką velniškai gero, kažką ką žodžiais sunku apibūdinti..!
+            ...ir staiga viskas nurimo, vėl pirmadienis, vėl turite aplinką kurioje mielai apsilankysite su savo mažaisiais bei draugais ir kiek vienas iš Jūsų bus laukiamas sugrįžtant vėl ir vėl ten
+            iš kur išeiti nesinori. inHype - vieta, į kurią verta sugrįžti!
         </p>
     </div>
     <div class="Pakvietimas" id="Jums">
@@ -239,8 +241,10 @@
             <li>21:00 Pertraukėlė Jums mielieji aptarti įspūdžius bei pasiruošti audringam vakarui!</li>
             <li>22:00 Vakaras prasideda... Ant scenos žengia ir atmosfera kaitina mūsų numylėtieji Radistai Dj's kurie neleis temperatūrai nukristi žemiau 100°C iki pat paryčių!</li>
         </ul>
-        <p>Viso vakaro metu turėsime net 2 profesionalius fotografus, kurie įamžins gražiausias renginio akimirkas. 
-        Kilus konfliktams mūsų draugai G4S greitai juos išspręs ir pasirūpins Jūsų saugumu!</p>
+        <p>
+            Viso vakaro metu turėsime net 2 profesionalius fotografus, kurie įamžins gražiausias renginio akimirkas.
+            Kilus konfliktams mūsų draugai G4S greitai juos išspręs ir pasirūpins Jūsų saugumu!
+        </p>
     </div>
     <div id="Kvietimas">
         <h1 class="vakaroprogramah1" style="color:white; font-size:60px">Laukiame Jūsų adresu H. Manto g. 20, Klaipėda!</h1>

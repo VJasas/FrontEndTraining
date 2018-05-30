@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <title>Table2</title>
-    <script>var slider = document.getElementById("slider");
-       var output = document.getElementById("value");
-       output.innerHTML = slider.value;
+    <script>
+var slider = document.getElementById("slider");
+        var output = document.getElementById("value");
+        output.innerHTML = slider.value;
 
-       slider.oninput = function() {
-         output.innerHTML = this.value;
-       }</script>
+        slider.oninput = function () {
+            output.innerHTML = this.value;
+        }</script>
     <style>
         body, html {
             background-color: white;
@@ -24,33 +25,38 @@
             box-sizing: border-box;
             width: 600px;
             background-color: gray;
-            padding:30px;
+            padding: 30px;
         }
+
         th {
-            text-align:right;
+            text-align: right;
         }
+
         .inputwidth {
-            width:200px;            
+            width: 200px;
         }
+
         .submitbutton {
             margin-left: 120px;
             margin-top: 20px;
             border-radius: 12px;
             border: 0;
         }
+
         .search {
-            position:absolute;
-            left:50%;
-            transform:translate(-50%);
-            width:600px;
-            background-color:gray;
-            box-sizing:border-box;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            width: 600px;
+            background-color: gray;
+            box-sizing: border-box;
             padding: 30px;
             margin-top: 580px;
         }
+
         .roundborders {
-            border-radius:12px; 
-            border:0;
+            border-radius: 12px;
+            border: 0;
         }
     </style>
 </head>
@@ -80,7 +86,7 @@
                 <tr>
                     <th>Your website</th>
                     <td>
-                        <input class="inputwidth" type="url" placeholder="www.yousite.com" required="optional" />
+                        <input class="inputwidth" type="url" placeholder="www.yousite.com" required />
                         <a>(optional)</a>
                     </td>
                 </tr>

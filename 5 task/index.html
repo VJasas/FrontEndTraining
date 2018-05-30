@@ -1,46 +1,157 @@
 ﻿<!DOCTYPE html>
 
 <html>
-<meta charset="utf-8" />
-<title>Cutting</title>
 <head>
-    <style>
-        body, html {
-            width: 960px;
-            height: 1860px;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        header {
-            height: 60px;
-            position:absolute;
-            float: left;
-
-        }
-        navbar {
-            height: 120px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-bottom: 50px;
-        }
-        h1 {
-            height: 53px;
-        }
-        .description {
-            height: 500px;
-            margin-bottom:50px;
-
-        }
-    </style>
+    <meta charset="utf-8" />
+    <title>Cutting</title>
+    <link rel="stylesheet" href="css/StyleSheet1.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <div id="container">
+        <div id="topbar">
+            <ul class="nav">
+                <li class="nav1"><a href="#">Sign Up</a></li>
+                <li class="nav1"><a href="#">Login</a></li>
+                <li class="nav1"><a href="#">RSS Feeds</a></li>
+                <li><a href="#">Archived News</a></li>
+            </ul>
+            <ul class="socialicons">
+                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a style="background-color: #db4a39;" href="https://www.google.com/"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="https://en.wikipedia.org/wiki/RSS"><i class="fas fa-rss"></i></a></li>
+            </ul>
+        </div>
         <header>
-            <button>Sign up</button>
-            <button>Login</button>
-            <button>RSS Feeds</button>
-            <button>Archived news</button>
+            <div id="mainnavbar">
+                <a href="#" style="margin-left:0; border-bottom: 5px solid #0099ff; color: #9f9f9f;">HOMEPAGE</a>
+                <a href="#">STYLE DEMO</a>
+                <a href="#">FULL WIDTH</a>
+                <a href="#">DROPDOWN</a>
+                <a href="#">GALLERY</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">LINK TEXT</a>
+                <a href="#">LONG LINK TEXT</a>
+            </div>
+            <div id="header2">
+                <div id="mainh1">
+                    <h1>NobodysFool</h1>
+                    <p style="color:#999999;">Free PSD Website Template</p>
+                </div>
+                <div id="search">
+                    <input type="text" placeholder="Search Our Website..." name="search" />
+                    <button type="button">SEARCH</button>
+                </div>
+            </div>
         </header>
+        <div id="slider">
+            <img src="images\550x440.jpg" alt="550x440" height="440px" width="550px" />
+            <div id="sliderabout">
+                <h1>Your title can be long <br /> and descriptive</h1>
+                <p>
+                    Cursuspenatisaccum ut curabitur nulla tellus tor <br />
+                    ames a in curabitur pede. Idet mollisi eros dis orci <br />
+                    congue elis et curabitur.
+                </p>
+                <button type="button">READ MORE »</button>
+            </div>
+        </div>
+        <div id="content">
+            <div id="responsivescreens">
+                <img src="images\responsive.jpg" alt="responsive" height="426px" width="450px" />
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <img src="images\85x80.jpg" alt="85x80" height="80px" width="85px" />
+                        <h4>Vivamuslibero Augue</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque.</p>
+                    </td>
+                    <td>
+                        <img src="images\85x80.jpg" alt="85x80" height="80px" width="85px" />
+                        <h4>Vivamuslibero Augue</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images\85x80.jpg" alt="85x80" height="80px" width="85px" />
+                        <h4>Vivamuslibero Augue</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque.</p>
+                    </td>
+                    <td>
+                        <img src="images\85x80.jpg" alt="85x80" height="80px" width="85px" />
+                        <h4>Vivamuslibero Augue</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque.</p>
+                    </td>
+                </tr>
+            </table>
+            <div id="shout">
+                <div id="inshouttext">
+                    <h1>Lorem ipsum dolor sit amet elit !</h1>
+                    <p>Why not try our services today, you won’t regret your choice !</p>
+                </div>
+                <button type="button">CONTACT US TODAY</button>
+            </div>
+        </div>
+        <footer>
+            <div id="aboutus">
+                <h4 STYLE="padding-bottom: 20px; font-size: 12px; color: #ffffff;">ABOUT US</h4>
+                <img src="images\215x90.jpg" alt="215x90" height="90px" width="225px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque.
+                    Quisque non luctus sem. Nullam non magna vel nisi posuere bibendum vitae sed dui.</p>
+                <a style="float: right; text-decoration: none; color: #0099ff;" href="#">Read More »</a>
+            </div>
+            <div id="quicklinks">
+                <h4 STYLE="padding-bottom: 20px; font-size: 12px; color: #ffffff;">QUICK LINKS</h4>
+                <p>»<a href="#">Lorem ipsum dolor sit</a></p>
+                <p>»<a href="#">Amet consectetur</a></p>
+                <p>»<a href="#">Praesent vel sem id</a></p>
+                <p>»<a href="#">Curabitur hendrerit est</a></p>
+                <p>»<a href="#">Aliquam eget erat nec sapien</a></p>
+                <p>»<a href="#">Cras id augue nunc</a></p>
+                <p>»<a href="#">In nec justo non</a></p>
+                <p>»<a href="#">Vivamus mollis enim ut</a></p>
+                <p>»<a href="#">Curabitur hendrerit est</a></p>
+                <p>»<a href="#">Sed a nulla urna</a></p>
+            </div>
+            <div>
+                <h4 STYLE="padding-bottom: 20px; font-size: 12px; color: #ffffff;">LATEST BLOG POSTS</h4>
+                <p style="color: #666666; font-size: 14px;">Post Title</p>
+                <p style="color: #666666; font-size: 10px; padding-bottom: 15px;">Admin, domainname.com<br>
+                   Friday, 6th April 2000</p>
+                <p style="font-size: 12px; color: #666666;"> Nulla facilisi. Ut fringilla. Suspendisse<br>
+                    potenti. Nunc feugiat mi a tellus<br> consequat imperdiet.</p>
+                <a style="float: right; text-decoration: none; color: #0099ff; padding-top: 5px;" href="#">Read More »</a>
+                <p style="color: #666666; font-size: 14px; padding-top: 40px;">Post Title</p>
+                <p style="color: #666666; font-size: 10px; padding-bottom: 15px;">Admin, domainname.com<br>
+                    Friday, 6th April 2000</p>
+                <p style="font-size: 12px; color: #666666;"> Nulla facilisi. Ut fringilla. Suspendisse<br>
+                    potenti. Nunc feugiat mi a tellus<br> consequat imperdiet.</p>
+                <a style="float: right; text-decoration: none; color: #0099ff; padding-top: 5px;" href="#">Read More »</a>
+
+            </div>
+            <div id="contactus">
+                <h4 STYLE="padding-bottom: 20px; font-size: 12px; color: #ffffff;"">CONTACT US</h4>
+                <form>
+                    <input style="margin-top: 0 !important;" type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <input style="height: 110px; padding-bottom: 85px;" type="text" placeholder="Message">
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+        </footer>
+        <div id="copyring">
+            <div id="left">
+                <p>Copyright © 2013 Domain Name - All Rights Reserved</p>
+            </div>
+            <div id="right">
+                <p>Template by OS Templates</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

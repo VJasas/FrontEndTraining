@@ -30,7 +30,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         filter: grayscale(50%);
-        position:relative;
+        position: relative;
     }
 
     #navbar {
@@ -76,8 +76,9 @@
         font-size: 50px;
         color: white;
         text-align: center !important;
-        margin:15px 0;
+        margin: 15px 0;
     }
+
         .headerh1 a {
             background-color: black;
             color: white;
@@ -87,6 +88,7 @@
             display: inline-block;
             white-space: nowrap;
         }
+
             .headerh1 a:hover {
                 background-color: rgba(208,208,208,1);
                 color: black;
@@ -118,11 +120,11 @@
         max-width: 980px;
     }
 
-        #menu p {
-            font-size: 35px;
-            margin: 30px 0;
-            color: gray;
-        }
+    #menu p {
+        font-size: 35px;
+        margin: 30px 0;
+        color: gray;
+    }
 
     #menubar {
         background-color: rgba(0,0,0,1);
@@ -140,7 +142,7 @@
             float: left;
             box-sizing: inherit;
             padding: 20px 0;
-            width:33.3%;
+            width: 33.3%;
         }
 
             #menubar a:hover {
@@ -151,7 +153,7 @@
     #menucontent {
         background-color: white;
         padding: 20px;
-        width:auto;
+        width: auto;
     }
 
     span {
@@ -183,19 +185,12 @@
         box-sizing: border-box;
     }
 
-        #aboutus p {
-            font-size: 24px;
-            color: white !important;
-        }
-
-    #openingleft {
-        box-sizing: border-box;
-        float: left;
-        width: 50%;
-        text-align: left;
+    #aboutus p {
+        font-size: 24px;
+        color: white !important;
     }
 
-    #openingright {
+    .openingtimes {
         box-sizing: border-box;
         float: left;
         width: 50%;
@@ -232,14 +227,14 @@
         color: white;
     }
 
-        #contactus h1 {
-            text-align: center;
-        }
+    #contactus h1 {
+        text-align: center;
+    }
 
-        #contactus p {
-            font-size: 24px;
-            color: white !important;
-        }
+    #contactus p {
+        font-size: 24px;
+        color: white !important;
+    }
 
     #reserve {
         font-size: 34px !important;
@@ -255,30 +250,34 @@
         box-sizing: border-box;
     }
 
-    button:hover {
-        background-color: lightgray;
+        button:hover {
+            background-color: lightgray;
+        }
+
+    #reference:hover {
+        color: lawngreen;
     }
 
-        #reference:hover {
-            color: lawngreen;
+    @media only screen and (max-width:600px) {
+        #navbar {
+            display: none;
         }
-        @media only screen and (max-width:600px) {
-            #navbar {
-                display:none;
-            }
-            .mediachange {
-                font-size:66px !important;
-                font-weight:bold !important;
-                white-space:nowrap;
-                margin:20px 0;
-            }
-            #homespan {
-                font-size:22px;
-            }
-            .innersize p {
-                font-size:24px !important;
-            }
+
+        .mediachange {
+            font-size: 66px !important;
+            font-weight: bold !important;
+            white-space: nowrap;
+            margin: 20px 0;
         }
+
+        #homespan {
+            font-size: 22px;
+        }
+
+        .innersize p {
+            font-size: 24px !important;
+        }
+    }
 </style>
 </head>
 <body>
@@ -359,12 +358,12 @@
             <p>We are proud of our interiors.</p>
             <img src="https://www.w3schools.com/w3images/onepage_restaurant.jpg" style="width:100%; vertical-align:middle;" />
             <h2 style="margin:20px 0;">Opening hours</h2>
-            <div id="openingleft">
+            <div class="openingtimes">
                 <p>Mon & Tue CLOSED</p>
                 <p>Wednesday 10.00 - 24.00</p>
                 <p>Thursday 10:00 - 24:00</p>
             </div>
-            <div id="openingright">
+            <div class="openingtimes">
                 <p>Friday 10:00 - 12:00</p>
                 <p>Saturday 10:00 - 23:00</p>
                 <p>Sunday Closed</p>
