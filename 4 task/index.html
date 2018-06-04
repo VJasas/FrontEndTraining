@@ -3,13 +3,14 @@
 <html>
 
 <head>
-    <title>Kvietimas</title>
+    <title>Invitation</title>
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        
         html, body {
             height: 100%;
             width: 100%;
@@ -31,7 +32,7 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate (-50%; -50%);
+            transform: translate(-50%, -50%);
         }
 
         header div h1 {
@@ -83,9 +84,17 @@
 
         #Apie {
             background-color: rgb(184,134,11);
-            height: 100%;
-            width: 100%;
+            min-height: 100%;
+            max-width: 100%;
             font-family: 'Courgette', cursive;
+        }
+
+        #Apie p {
+            font-size: 20px;
+            color: black;
+            max-width: 800px;
+            margin: auto;
+            padding: 40px 0;
         }
 
         h1 {
@@ -103,13 +112,6 @@
             margin-left: auto;
             margin-right: auto;
             border-radius: 10px;
-        }
-
-        p {
-            font-size: 20px;
-            margin-left: 175px;
-            margin-right: 175px;
-            color: black;
         }
 
         .Pakvietimas {
@@ -148,18 +150,20 @@
             font-family: 'Courgette', cursive;
         }
 
-        #Vakaroprograma {
+        #Vakaroprograma ul {
+            font-size: 20px;
+            color: black;
+            max-width: 800px;
+            margin: auto;
+            padding-top: 200px;
         }
 
-        ul {
-            margin-top: 0;
-            padding-top: 220px;
-            padding-left: 10%;
-            color: black;
+        #Vakaroprograma p {
             font-size: 20px;
-            margin-left: 150px;
-            margin-right: 150px;
-            margin-bottom: 100px;
+            color: black;
+            max-width: 800px;
+            margin: auto;
+            padding-top: 50px;
         }
 
         #Kvietimas {
@@ -179,9 +183,6 @@
             border: 0;
             font-size: 25px;
             padding: 30px 50px;
-            text-align: center;
-            margin-top: 25%;
-            margin-left: 29%;
             font-family: 'Courgette', cursive;
         }
 
@@ -191,9 +192,6 @@
             border: 0;
             font-size: 25px;
             padding: 30px 45px;
-            text-align: center;
-            margin-top: 25%;
-            margin-left: 7%;
             font-family: 'Courgette', cursive;
         }
     </style>
@@ -247,10 +245,14 @@
         </p>
     </div>
     <div id="Kvietimas">
-        <h1 class="vakaroprogramah1" style="color:white; font-size:60px">Laukiame Jūsų adresu H. Manto g. 20, Klaipėda!</h1>
-        <a class="Pakvietimash1" style="font-size:36px; margin-top: 10%">Prašome atsakyti į kvietimą iki 2018-06-30</a>
-        <button class="button1" type="button">Dalyvausime!</button>
-        <button class="button2" type="button">Nedalyvausime...</button>
+        <div>
+            <h1 class="vakaroprogramah1" style="color:white; font-size:60px; position: relative;">Laukiame Jūsų adresu H. Manto g. 20, Klaipėda!</h1>
+            <a class="Pakvietimash1" style="font-size:36px; margin: 0;">Prašome atsakyti į kvietimą iki 2018-06-30</a>
+        </div>
+        <div style="text-align: center; bottom: -30%; position: relative;">
+            <button class="button1" type="button">Dalyvausime!</button>
+            <button class="button2" type="button">Nedalyvausime...</button>
+        </div>
     </div>
 </body>
 </html>
