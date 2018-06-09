@@ -1,0 +1,416 @@
+nav {
+    background-color: #F9F9F9;
+}
+
+#logo {
+    max-width: 124px;
+    max-height: 45px;
+}
+
+.dropbtn {
+    background-color: #F9F9F9;
+    font-size: 12px;
+    border: none;
+}
+
+.dropbtn:hover {
+    cursor: pointer;
+}
+
+.dropdown {
+    float: left;
+    padding: 16px 16px 16px 16px;
+    color: dimgray;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(29, 205, 202);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #F9F9F9;
+}
+
+.dropdown-item:active {
+    background-color: rgb(29, 205, 202);
+}
+
+#stickytop {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+#mainlist li {
+    padding: 28px 20px;
+    font-size: 12px;
+    display: block;
+    font-weight: 600;
+}
+
+#serach {
+    max-width: 194px;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+}
+
+#serach .input-group-text {
+    color: #818b8d
+}
+
+#shoppingcart {
+    padding: 24px 0 0 44px;
+}
+
+#shoppingcart i {
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+}
+#shoppingcart a {
+    color: #818b8d;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#topleftnav li {
+    font-size: 11px;
+    color: #777777;
+    display: inline-block;
+    margin-right: 25px;
+    padding: 5px 0;
+}
+
+#topright ul li a i {
+    color: #777777;
+}
+
+#shout {
+    background-color: #1B2228;
+    color: white;
+    text-align: center;
+    padding: 50px 90px;
+}
+
+#shout p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    color: #aaa;
+    margin: 0;
+}
+
+.supercoding p a h3 {
+    color: #666666;
+    text-decoration: none;
+}
+
+.supercoding i {
+    background: none;
+    font-size: 40px;
+    line-height: 84px;
+    color: #1ccdca;
+    position: relative;
+    border: 1px solid #1ccdca;
+    border-radius: 50%;
+    width: 84px;
+    height: 84px;
+    text-align: center;
+}
+
+#ourskills {
+    padding: 90px 50px;
+    background-color: #3C464D;
+    color: #fff;
+}
+
+#background {
+    background: url("images/bg_header4.jpg") no-repeat center;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#myTabContent {
+    padding: 20px 25px;
+}
+
+#myTabContent ul {
+    padding-left: 15px;
+}
+
+#myTabContent li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+#myTabContent i {
+    padding-right: 20px;
+    color: #e74c3c;
+}
+
+#myTabContent p {
+    margin-bottom: 15px;
+}
+
+#Quality #Design #Programming {
+    margin-bottom: 15px;
+
+}
+
+#whyus {
+    margin: 0 auto;
+    padding: 90px 0;
+    background-color: #f9fafc;
+    background-size: cover;
+}
+
+.whychoseus {
+    color: #666666;
+}
+
+.whychoseus button {
+    color: #666666;
+}
+
+.whychoseus button:hover {
+    text-decoration: none;
+    color: #666666;
+}
+
+.whychoseus h2 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    color: #324545;
+    font-size: 22px;
+}
+
+.accordion i {
+    margin-right: 12px;
+}
+
+.paddingmargin {
+    padding: 90px 0;
+}
+
+#growingnumbers i {
+    font-size: 36px;
+    color: #1ccdca;
+    margin-bottom: 34px;
+}
+
+#growingnumbers span {
+    font-size: 32px;
+    font-weight: 700;
+    color: #666666;
+}
+
+#growingnumbers p {
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+#meetourteam {
+    background: #f9fafc;
+    border-bottom: 1px solid #eaebed;
+    border-top: 1px solid #eaebed;
+}
+
+#meetourteam h2 {
+    color: #324545;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    line-height: 40px;
+}
+
+#meetourteam p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 auto 50px;
+    width: 65%;
+}
+
+#meetourteam img {
+    background: #fff;
+    border: 1px solid #dadbdb;
+    padding: 5px;
+    overflow: hidden;
+    height: 124.5px;
+    width: 124.5px;
+    border-radius: 50%;
+}
+
+#paragraphmargin p {
+    width: auto;
+    display: block;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+    color: #999;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#paragraphmargin h3 {
+    color: #324545;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#why {
+    background: #f9fafc;
+    border-bottom: 1px solid #eaebed;
+    border-top: 1px solid #eaebed;
+}
+
+#ourservices h2 {
+    text-align: center;
+    color: #324545;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    line-height: 40px;
+}
+
+#ourservices i {
+    height: 84px;
+    width: 84px;
+    line-height: 87px;
+    top: 0;
+    background-color: #1ccdca;
+    text-align: center;
+    font-size: 35px;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    margin-right: 20px;
+}
+
+#ourservices h3 {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 0 12px;
+    color: #324545;
+}
+
+#ourservices p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}
+
+#ourservices .col-lg-12 {
+    margin-bottom: 60px;
+}
+
+#ourservices img {
+    max-width: 100%;
+}
+
+#pricingplans {
+    background: #f9fafc;
+    border-bottom: 1px solid #eaebed;
+    border-top: 1px solid #eaebed;
+}
+
+#pricingplans h2 {
+    text-align: center;
+    color: #324545;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    line-height: 40px;
+}
+
+#pricingplans span {
+    text-align: center;
+    color: #1ccdca;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    line-height: 40px;
+}
+
+#pricingplans .col-lg-4 {
+    margin-top: 50px;
+}
+
+#pricingplans li {
+    list-style-type: none;
+    padding: 13px 0;
+    border-bottom: 1px solid #F1EFF0;
+    color: #878787;
+}
+
+#pricingplans a {
+    border: 2px solid #ECE8E7;
+    display: inline-block;
+    font-size: 14px;
+    margin: 30px 0;
+    padding: 10px 18px;
+    color: #999;
+    border-radius: 200px;
+}
+
+#pricingplans i {
+    margin-right: 10px;
+}
+
+#pricingplans h6 {
+    padding-top: 65px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F1EFF0;
+    margin: 0px;
+}
+
+.pricingborders{
+    box-shadow: 0 0 0 1px #e4e4e4 inset;
+    border-radius: 10px;
+}
+
+#pricingplans i.fa-check {
+    color: #92C135;
+}
+
+#pricingplans i.fa-times {
+    color: #e74c3c;
+}
